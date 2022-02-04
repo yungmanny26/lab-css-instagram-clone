@@ -3,7 +3,140 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding-left: 5em;
+  padding-right: 4em;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: #06365f
+  linear-gradient(
+    180deg,
+    rgba(91, 126, 156, 1) 0%,
+    rgba(60, 98, 133, 1) 38%,
+    rgba(47, 90, 128, 1) 38%,
+    rgba(92, 126, 155, 1) 38%,
+    rgba(244, 245, 247, 1) 38%,
+    rgba(253, 253, 253, 1) 38%,
+    white 100%
+    )
+    top left repeat-x;
+}
 
+.container{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mobile-img{
+  display: flex;
+  align-items: center;
+}
+
+.mobile-img img{
+  width: 310px;
+  margin-right: 3em;
+
+  transform: translateY(-1em);
+}
+
+.login-menu-and-infos{
+  max-width: 32em;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+}
+
+.login-and-logo{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.login-and-logo img{
+  width: 250px;
+  margin-right: 100px;
+}
+
+.button-login{
+  background: linear-gradient(180deg, #fff 0,5%, #1c5380 90%);
+  background-image: url(../images/home.png);
+  background-repeat: no-repeat;
+  background-position: center left 5px;
+  text-align: right;
+  padding-right: 20px;
+  width: 110px;
+  height: 40px;
+  font-weight: 900;
+  font-size: 15px;
+  box-shadow: 0 0 1em #06365f;
+}
+
+section{
+  /* display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: center; */
+  background: #fefefe;
+  padding: 2em;
+  border-radius: 0.25em;
+}
+
+.text-infos{
+  text-align: left;
+  width: 500px;
+}
+
+.text-infos h3{
+  color: #06365f;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+  width: 50%;
+  margin-top: 0;
+}
+
+.text-infos p{
+  width: 450px;
+  font-size: 18px;
+}
+
+.badges{
+  display: inline-flex;
+  justify-content: start;
+  width: 330px;
+ }
+
+.badges img{
+  width: 135px;
+  margin-right: 5px;
+  padding-left: 8px;
+  padding-top: 28px;
+}
+
+footer li{
+  display: inline-flex;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  margin-right: 3px;
+  padding-left: 25px;
+}
+
+footer a{
+  text-align: center;
+  text-decoration: none;
+  color: #1c5380;
+  font-size: 12px;
+  font-weight: 900;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
